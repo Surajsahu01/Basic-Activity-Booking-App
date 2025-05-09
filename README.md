@@ -55,23 +55,18 @@ npm start
 
 Auth
 
-POST  /api/auth/register – Register a new user
-POST  /api/auth/login – Login and receive JWT token
-POST	/api/auth/logout -	Logout (clear token)
+POST /api/auth/register – Register a new user
+
+POST /api/auth/login – Login and receive JWT token
+
+POST /api/auth/logout – Logout (clear token)
 
 Activities
 
-GET	/api/activities	Public	List all activities
-POST	/api/activities/create	Protected	Create activity (auto date/time)
-POST	/api/activities/book/:id	Protected	Book an activity by ID
-GET	/api/activities/my-bookings	Protected	Get logged-in user's bookings
+GET /api/activities – Public: List all activities
 
+POST /api/activities/create – Protected: Create activity (auto date/time)
 
-🧪 API Testing
+POST /api/activities/book/:id – Protected: Book an activity by ID
 
-Use the provided Postman collection to test endpoints:
-
-Download Postman Collection
-https://.postman.co/workspace/Buisness-Project~d8baaf2b-3148-46a7-9c27-d44c8de0619d/collection/40444582-2e580ed6-afd8-4697-9593-fd04af1a687f?action=share&creator=40444582
-
-Or import it manually into Postman after exporting it via the app.
+GET /api/activities/my-bookings – Protected: Get logged-in user's bookings
