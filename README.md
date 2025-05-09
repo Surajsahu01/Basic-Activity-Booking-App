@@ -12,15 +12,17 @@ Authentication: JWT (JSON Web Tokens)
 
 Password Hashing: bcryptjs
 
+Validation: express-validator
 
 📦 Features
 
-- ✅ User registration & login with JWT
-- ✅ Secure activity booking (only logged-in users)
-- ✅ View user's bookings
-- ✅ Create and list activities
-- ✅ Token-based route protection (middleware)
-- ✅ Modular structure with controllers, routes, models
+User Registration & Login with secure password storage and token-based authentication
+
+Public Activity Listing (no auth required)
+
+Authenticated Booking of activities
+
+Authenticated Retrieval of user bookings
 
 🚀 Getting Started
 
@@ -67,12 +69,9 @@ GET /api/activities – Public: List all activities
 
 POST /api/activities/create – Protected: Create activity (auto date/time)
 
-Booking
-
 POST /api/activities/book/:id – Protected: Book an activity by ID
 
 GET /api/activities/my-bookings – Protected: Get logged-in user's bookings
-
 
 🧪 API Testing
 
@@ -81,3 +80,14 @@ Use the provided Postman collection to test endpoints:
 Download Postman Collection
 
 Or import it manually into Postman after exporting it via the app.
+
+✅ Bonus Features Implemented
+
+Password hashing using bcryptjs
+
+Input validation using express-validator
+
+Clean code with MVC structure
+
+JWT-based auth with protected routes
+
