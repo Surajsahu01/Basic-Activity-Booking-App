@@ -67,6 +67,17 @@ GET /api/activities – Public: List all activities
 
 POST /api/activities/create – Protected: Create activity (auto date/time)
 
+Booking
+
 POST /api/activities/book/:id – Protected: Book an activity by ID
 
 GET /api/activities/my-bookings – Protected: Get logged-in user's bookings
+
+
+🧪 API Testing
+
+Use the provided Postman collection to test endpoints:
+
+Download Postman Collection
+
+Or import it manually into Postman after exporting it via the app.
