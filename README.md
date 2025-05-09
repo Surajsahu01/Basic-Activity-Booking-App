@@ -50,30 +50,6 @@ JWT_SECRET=your_jwt_secret
 # Start the server
 npm start
 
-📁 Folder Structure
-
-.
-├── controllers/
-│ ├── authController.js
-│ └── activityController.js
-│
-├── middleware/
-│ └── authMiddleware.js
-│
-├── models/
-│ ├── User.js
-│ ├── Activity.js
-│ └── Booking.js
-│
-├── routes/
-│ ├── authRoutes.js
-│ └── activityRoutes.js
-│
-├── app.js
-├── index.js
-├── .env
-└── README.md
-
 
 📬 API Endpoints
 
